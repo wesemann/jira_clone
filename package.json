@@ -4,12 +4,12 @@
   "author": "Bouaggad Moez",
   "license": "MIT",
   "scripts": {
-    "install-deps": "yarn install && cd backend && yarn install && cd ../frontend && yarn install",
-    "start:front": "cd frontend && yarn start",
-    "build:front": "cd frontend && yarn build",
-    "start:back": "cd backend && yarn start",
-    "build:back": "cd backend && yarn build",
-    "build": "yarn build:front && yarn build:back",
-    "start": "yarn start:front && yarn start:back"
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start:front": "cd frontend && npm run start",
+    "build:front": "cd frontend && npm run build",
+    "start:back": "cd backend && npm run start",
+    "build:back": "cd backend && npm run build",
+    "build": "npm run build:front && npm run build:back",
+    "start": "npm run start:front && npm run start:back"
   }
 }
